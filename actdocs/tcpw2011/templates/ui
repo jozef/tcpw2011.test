@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="[% global.request.language %]" xml:lang="[% global.request.language %]">
+
+<head>
+    <!-- Document Metadata -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="[% global.request.language %]" />
+
+    <title>[%- IF title -%][% title  %] |[% END %] Twincity Perl Workshop 2011 | 7th and 8th November</title>
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/tcpw2011/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/tcpw2011/css/print.css" media="print" />
+
+    <!-- OpenId -->
+    [% IF openid %]
+    <link rel="openid.server" href="[% global.request.base_url %][% make_uri('openid') %]" />
+    [% END %]
+    <!-- Atom news feed -->
+    <link rel="alternate" type="application/atom+xml" title="[% global.conference.name %]"
+      href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml" />
+      
+	<!-- JavaScript sugar -->
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/act.js"></script>
+	<script type="text/javascript" src="/tcpw2011/js/jquery.pngFix.pack.js"></script>
+	
+	<!-- Favorite icon -->
+	<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+<script type="text/javascript"> 
+    $(document).ready(function(){ 
+        $(document).pngFix(); 
+    }); 
+</script>
+
+</head>
+
+<body>
+<div id="header">
+    <a href="[% make_uri('index.html') %]"><img src="/tcpw2011/images/head.png" title="Twincity Perl Workshop 2011 | 7th and 8th November" alt="" style="margin: 0px 10px" border="0"/></a>
+</div>
+
+<div id="container">
+
+    <div id="menu">
+        <div id="menu_wrapper">
+        [% PROCESS menu %]
+        </div>
+    </div>
+
+    <div id="content">
+        [%- IF title -%]<h1>[% title  %]</h1>[%- END -%]
+        [% content %]
+        <div class="small">
+            <br />
+            Copyright &copy; 2003-2011 Verein 'Vienna.pm - Verein zur F&ouml;rderung der Programmiersprache Perl'.<br />
+            To contact the organisers send an email to <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x74;&#x77;&#x69;&#x6e;&#x63;&#x69;&#x74;&#x79;&#x40;&#x72;&#x74;&#x2e;&#x75;&#x73;&#x65;&#x70;&#x65;&#x72;&#x6c;&#x2e;&#x61;&#x74;">&#x74;&#x77;&#x69;&#x6e;&#x63;&#x69;&#x74;&#x79;&#x40;&#x72;&#x74;&#x2e;&#x75;&#x73;&#x65;&#x70;&#x65;&#x72;&#x6c;&#x2e;&#x61;&#x74;</a>
+            <br />
+            <a href="[% make_uri('impressum.html') %]">
+            <t>
+                <en>About</en>
+                <de>Impressum</en>
+                <sk>Tiráž</sk>
+            </t>
+            </a>
+        </div>
+    </div>
+
+    <div id="sponsor">
+        <div id="sponsor_wrapper">
+        [% PROCESS sponsors %]
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+

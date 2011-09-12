@@ -1,0 +1,37 @@
+<div class="menu_section">Workshop</div>
+
+<div class="menu_item"><a href="/tcpw2011/bratislava.html">Bratislava</a></div>
+
+<div class="menu_item"><a href="/tcpw2011/vienna.html">
+<t>
+<de>Wien</de>
+<sk>Viedeň</sk>
+<en>Vienna</en>
+</t>
+</a></div>
+
+<div class="menu_item"><a href="/tcpw2011/contact.html">
+<t>
+<de>Kontakt</de>
+<sk>Kontakt</sk>
+<en>Contact</en>
+</t>
+</a></div>
+
+<div class="menu_item"><a href="/tcpw2011/sponsors.html">
+<t>
+<de>Sponsoren</de>
+<sk>Sponzori</sk>
+<en>Sponsors</en>
+</t>
+</a></div>
+
+[% PROCESS menus/user %]
+[% PROCESS menus/users %]
+[% PROCESS menus/news %]
+[% PROCESS menus/wiki %]
+[% PROCESS menus/talks %]
+[% PROCESS menus/events %]
+[% PROCESS menus/treasurer %]
+[% PROCESS menus/admin %]
+[% PROCESS menus/act_confs %]

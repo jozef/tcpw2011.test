@@ -1,0 +1,12 @@
+#header, #menu, #sponsor { 
+	display: none;
+}
+
+H2, H3, H4 {
+	color: black;
+}
+
+#container {
+  max-width: 100%;
+  width: 100%;
+}

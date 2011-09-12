@@ -1,0 +1,237 @@
+/* General settings */
+
+@media print { #header, #menu, #sponsor { display: none; } }
+
+BODY {
+	font-family: Georgia,'Times New Roman',Times,serif;
+	font-size:11pt;
+	font-weight:normal;
+	background-color: #FFF;
+	padding: 0;
+	margin: 0;
+}
+
+UL {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+LI {
+	margin-bottom: 7px;
+}
+
+#menu A:Hover, #sponsor A:Hover {
+	background: none;
+}
+
+#container A:Hover {
+	background-color: #b9c334;
+	color: black;
+}
+
+A:Link,A:Visited,A:Active {
+	color: black;
+}
+
+A IMG {
+	border: none;
+}
+
+/* Layout */
+
+#header {
+	width: 100%;
+	height: 225px;
+	background: #565550 url(/tcpw2011/images/background.jpg) no-repeat left;
+}
+
+#container {
+	width: 990px;
+	margin-top: 10px;
+}
+
+#menu {
+	background-color: #b9c334;
+	float: left;
+	position: relative;
+	width: 200px;
+	margin: 0px 10px 5px;
+	color: white;
+	clear: left;
+}
+
+#content {
+	width: 600px; /* 615 + 140 (sponsor) + 10 Margin - 5 IE 6 Fuckup */
+	font-size: 0.9em;
+	text-align: justify;
+	float: left;
+	position: relative;
+}
+
+#sponsor {
+	width: 140px;
+	float: left;
+	margin: 0px 10px 5px;
+	
+	position: relative;
+	clear: right;
+}
+
+/* Menu */
+
+#menu_wrapper {
+	color: white;
+	margin: 5px;
+}
+
+#menu_wrapper A {
+	display: block;
+}
+
+#menu_wrapper A:Hover {
+	background-color: white;
+	color: black;
+}
+
+.menu_section {
+	font-weight: 900;
+	font-size: 1.1em;
+	border-bottom: 1px dotted White;
+	color: white;
+	margin-top: 8px;
+	margin-bottom: 2px;
+}
+
+
+.menu_item A:Link, .menu_item A:Visited, .menu_item A:Active {
+	color: #949d17;
+	background: none;
+}
+
+#menu_wrapper A {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Text formating */
+
+.small {
+	color: #535353;
+	font-size: 0.8em;
+}
+
+H1 {
+	color: #949d17;
+	border-bottom: 1px solid #535353;
+}
+H2 {
+	color: #949d17;
+	font-size: 1.45em;
+}
+H3 {
+	color: #949d17;
+	font-size: 1.2em;
+}
+H4 {
+	color: #949d17;
+	font-size: 1.1em;
+}
+
+dd {
+    padding-bottom: 0.5em;
+    border-bottom: 1px dotted #535353;
+}
+
+dt {
+	font-weight: bold;	
+    padding-top: 0.5em;
+}
+
+dt img {
+	float: right;
+}
+
+/* Spezielle Formate */
+
+.newsbox {
+	border: 1px dotted #535353;
+	padding: 10px;
+	font-size: 0.9em;
+	margin-left: 0px;
+	margin-bottom: 1px;
+}
+
+.newsbox H3  {
+	color: black;
+}
+
+.box {
+	border: 1px solid #535353;
+}
+
+#content HR {
+	height: 1px;
+}
+
+/* Tabellen für ACT */
+
+#content TABLE.usertable {
+}
+
+#content TABLE {
+	border: 1px solid #535353;
+	width: 100%;
+	border-spacing: 2px;
+	border-collapse: collapse;
+	empty-cells:show;
+}
+
+#content TABLE.grid TD {
+	border: 1px solid #565550;
+}
+
+#content TABLE TD {
+	vertical-align: top;
+	text-align: left;
+}
+
+#content FIELDSET {
+	border: none;
+	border: 1px solid #535353;
+}
+
+
+#content TABLE TABLE {
+	border: none;
+	border-collapse: separate;
+	width: 100%;
+	border-spacing: 3px;
+}
+
+#content FIELDSET TABLE {
+	border: none;
+}
+
+#content TH {
+		background-color: #565550;
+		color: white;
+}
+
+#content .highlight {
+		background-color: #c0c920;
+}
+
+
+/* Sponsors */
+
+#sponsor_wrapper {
+	margin: 5px;
+}
+
+#sponsor_wrapper h2 {
+	font-weight: 900;
+	font-size: 1.1em;
+	margin-top: 8px;
+	margin-bottom: 2px;
+}
