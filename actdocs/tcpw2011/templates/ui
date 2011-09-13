@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Language" content="[% global.request.language %]" />
 
-    <title>[%- IF title -%][% title  %] |[% END %] Twincity Perl Workshop 2011 | 7th and 8th November</title>
+    <title>[%- IF title -%][% title  %] |[% END %] Twincity Perl Workshop 2011 | 4th and 5th November</title>
 
     <!-- CSS stylesheets -->
     <link rel="stylesheet" type="text/css" href="/tcpw2011/css/main.css" />
@@ -42,7 +42,7 @@
 
 <body>
 <div id="header">
-    <a href="[% make_uri('index.html') %]"><img src="/tcpw2011/images/head.png" title="Twincity Perl Workshop 2011 | 7th and 8th November" alt="" style="margin: 0px 10px" border="0"/></a>
+    <a href="[% make_uri('index.html') %]"><img src="/tcpw2011/images/head.png" title="Twincity Perl Workshop 2011 | 4th and 5th November" alt="" style="margin: 0px 10px" border="0"/></a>
 </div>
 
 <div id="container">
