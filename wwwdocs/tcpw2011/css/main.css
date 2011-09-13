@@ -25,7 +25,7 @@ LI {
 }
 
 #container A:Hover {
-	background-color: #b9c334;
+	background-color: #3099ba;
 	color: black;
 }
 
@@ -51,7 +51,7 @@ A IMG {
 }
 
 #menu {
-	background-color: #b9c334;
+	background-color: #3099ba;
 	float: left;
 	position: relative;
 	width: 200px;
@@ -104,7 +104,7 @@ A IMG {
 
 
 .menu_item A:Link, .menu_item A:Visited, .menu_item A:Active {
-	color: #949d17;
+	color: #186986;
 	background: none;
 }
 
@@ -122,19 +122,19 @@ A IMG {
 }
 
 H1 {
-	color: #949d17;
+	color: #186986;
 	border-bottom: 1px solid #535353;
 }
 H2 {
-	color: #949d17;
+	color: #186986;
 	font-size: 1.45em;
 }
 H3 {
-	color: #949d17;
+	color: #186986;
 	font-size: 1.2em;
 }
 H4 {
-	color: #949d17;
+	color: #186986;
 	font-size: 1.1em;
 }
 
